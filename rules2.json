@@ -5657,6 +5657,98 @@
     },
     "priority": 101
   },
+  {
+    "id": 462,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".backblaze.com/e2t/",
+      "resourceTypes": [
+        "image"
+      ],
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 101
+  },
+  {
+    "id": 463,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".backcountry.com/o/",
+      "resourceTypes": [
+        "image"
+      ],
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 101
+  },
+  {
+    "id": 464,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".bahn.de/op/",
+      "resourceTypes": [
+        "image"
+      ],
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 101
+  },
+  {
+    "id": 465,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".benchurl.com/c/o?",
+      "resourceTypes": [
+        "image"
+      ],
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 101
+  },
+  {
+    "id": 466,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".bhphotovideo.com/mo/",
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 5
+  },
+  {
+    "id": 466,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".birdsend.net/o/",
+      "resourceTypes": [
+        "image"
+      ],
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 101
+  },
+  {
+    "id": 467,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".bluekai.com/*?e_id_",
+      "isUrlFilterCaseSensitive": false
+    },
+    "priority": 5
+  },
   
  
   {
@@ -6078,6 +6170,8 @@
       "resourceTypes": ["main_frame", "sub_frame"]
     }
   }
+  
+
 
   
   
