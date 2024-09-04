@@ -1,15 +1,14 @@
 {
-    "name":"Virus killer",
+    "name":"Threat killer",
     "version":"1.0",
     "manifest_version":3,
     "description": "Used to remove ads and blocking Trackers"  ,
     "permissions":["activeTab","sidePanel","scripting","clipboardWrite","declarativeContent","offscreen","commands","tabs","cookies","storage","contextMenus","nativeMessaging","notifications", 
     "declarativeNetRequest","contentSettings",
     "declarativeNetRequestFeedback","declarativeNetRequestWithHostAccess", "webRequest","alarms","debugger", "webNavigation","management","bookmarks","browsingData","contentSettings","desktopCapture", "tabCapture",
-    "downloads","fontSettings","history","privacy", "proxy","tabGroups", "topSites", "tts","ttsEngine",  "system.cpu",
-    "system.memory","webRequestAuthProvider",
-    "system.display",
-    "system.storage"],
+    "webRequestAuthProvider"
+    
+    ],
     "background": {
         "service_worker": "background.js",
          "type": "module"
@@ -19,7 +18,7 @@
     
     "web_accessible_resources": [
       {
-        "resources": ["Easylist.txt"],
+        "resources": ["content.js"],
         "matches": [ "<all_urls>" ]
         
       }
@@ -30,7 +29,7 @@
     "action":{
            "default_popup":"popup.html",
            "default_icon":"download 3.png",
-           "default_title": "Virus Killer"
+           "default_title": "Threat Killer"
     },
     "options_page":"options.html",
    
